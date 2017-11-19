@@ -1,0 +1,8 @@
+.img--frame {
+  width: 100%;
+  padding: em(10px);
+  border: em(1px) solid #e0e0e0;
+  @media (min-width: 769px) {
+    margin-top: em(30px);
+  }
+}

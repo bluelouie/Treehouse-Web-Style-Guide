@@ -1,0 +1,30 @@
+.img--avatar {
+  @include centered(50%);
+  margin-top: em(30px);
+  margin-bottom: em(30px);
+}
+
+.form__label--hidden {
+  display: none;
+}
+
+.form__input {
+  width: 100%;
+  border-style: hidden;
+  border-bottom: em(5px) solid #58e1c1;
+  margin-bottom: em(35px);
+  &:focus {
+    outline: none;
+  }
+  &:placeholder-shown {
+    font-size: em(13px);
+    padding-bottom: em(10px);
+    padding-left: em(10px);
+  }
+}
+
+@media (min-width: 769px) {
+  .form {
+    margin: em(50px) auto;
+  }
+}

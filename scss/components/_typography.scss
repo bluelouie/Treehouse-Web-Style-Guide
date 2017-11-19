@@ -1,0 +1,37 @@
+.card {
+  @include centered();
+  margin: em(50px) auto;
+}
+
+.card p {
+  @include centered(100%, inline-block);
+  line-height: em(25px);
+}
+
+.headline--primary {
+  color: #58E1C1;
+  padding-left: em(15px);
+  font-size: em(24px);
+  font-weight: bold;
+}
+
+.headline--secondary {
+  color: #b0b0b0;
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: #51ddfc;
+  font-weight: bold;
+}
+
+
+.blockquote {
+  color: #b0b0b0;
+  font-style: italic;
+  font-size: em(20px);
+  padding-left: em(10px);
+  border-left: em(5px) solid #58E1C1;
+  border-radius: em(5px);
+}
