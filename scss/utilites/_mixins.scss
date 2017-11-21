@@ -28,7 +28,7 @@
 }
 
 @mixin break--one() {
-  @media (min-width: 769px) {
+  @media (min-width: $bp) {
     @content
   }
 }
@@ -51,4 +51,5 @@
 
 @function em($target, $context: $base__font-size) {
 	@return ($target / $context) * 1em;
+  
 }
